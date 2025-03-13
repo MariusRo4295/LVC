@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zgardă Electrică</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Orbitron', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            text-align: center;
+            margin-top: 20px;
+        }
+        h1 {
+            font-size: 50px;
+            font-weight: bold;
+            color: #00ffff;
+            text-shadow: 0 0 10px #00ffff;
+        }
+        .sub-header, h2 {
+            font-size: 24px;
+            color: #0ff;
+            margin-top: 20px;
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+        }
+        .image-placeholder {
+            width: 100%;
+            height: 300px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border: 2px dashed #00ffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .circuit-image {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+        ul {
+            text-align: left;
+            display: inline-block;
+            font-size: 18px;
+        }
+        .box {
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="subtitle">Liceul "Vasile Conta",<br> Profesor coordonator: Sauciuc Gheorghe</h2>
+        <h1>ZGARDĂ ELECTRICĂ</h1>
+        <div class="image-placeholder">
+            <img src="https://media.discordapp.net/attachments/1287041751047213108/1349838353276862615/circuit_image.png?ex=67d48e6e&is=67d33cee&hm=d72da0437c4d9c70d3b04a06cb4fc0668cd999b9d2349dd0c9f45d405437455c&=&format=webp&quality=lossless&width=1240&height=889" alt="Zgarda Electrica" class="circuit-image">
+        </div>
+        <div class="box">
+            <h2>Clasa a XI-a</h2>
+        </div>
+        <div class="box">
+            <h2>Sistem Inteligent de Monitorizare GPS pentru Câini</h2>
+            <p>Proiectul nostru propune un sistem compact și eficient pentru monitorizarea în timp real a câinilor prin GPS. Acesta utilizează module electronice de dimensiuni reduse, fiind confortabil pentru animal și având un impact minim asupra activității sale zilnice.</p>
+            <h3>Caracteristici principale:</h3>
+            <ul>
+                <li>Localizare GPS în timp real – Prin trimiterea unui cod SMS la numărul asociat modulului, proprietarul poate primi imediat poziția exactă a câinelui.</li>
+                <li>Monitorizare audio – Sistemul include un microfon ce permite ascultarea sunetelor ambientale din jurul câinelui.</li>
+                <li>Autonomie ridicată – Bateria de 4,2V și 1000mAh asigură o funcționare de aproximativ 30 de zile.</li>
+                <li>Funcție de alertare rapidă – Pe zgardă este integrat un buton de urgență.</li>
+                <li>Design minimalist și versatil – Dimensiuni reduse pentru confort maxim.</li>
+            </ul>
+            <h3>Componente utilizate:</h3>
+            <ul>
+                <li>ESP32-C3 – Microcontroler principal.</li>
+                <li>Modul mini A6/GA6 GPRS GSM – Permite trimiterea mesajelor SMS și apelurilor.</li>
+                <li>Modul L76X GPS – Asigură localizarea precisă.</li>
+                <li>Baterie Li-Ion 4,2V / 1000mAh – Oferă o autonomie extinsă.</li>
+            </ul>
+        </div>
+        <div class="box">
+            <h2>Proiect realizat de:</h2>
+            <p>Leonte Andreea-Valentina</p>
+            <p>Cuibari Marius-Constantin</p>
+        </div>
+        <div class="image-placeholder">
+            <img src="https://media.discordapp.net/attachments/1287041751047213108/1349838353276862615/circuit_image.png?ex=67d48e6e&is=67d33cee&hm=d72da0437c4d9c70d3b04a06cb4fc0668cd999b9d2349dd0c9f45d405437455c&=&format=webp&quality=lossless&width=1240&height=889" alt="Circuit Schema" class="circuit-image">
+        </div>
+        <div class="footer">
+            <p>Clasa a XI-a</p>
+        </div>
+    </div>
+</body>
+</html>
